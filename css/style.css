@@ -74,6 +74,12 @@ aside:last-child{
 
 /* Footer rules */
 
+
+body > footer{
+    background-color: lightsalmon;
+    height: 60px;
+}
+
 /* /Footer rules */
 
 
