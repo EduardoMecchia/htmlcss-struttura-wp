@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body{
-    height: 100vh;
-}
-
 .clearfix::after{
     content: '';
     display: table;
@@ -26,4 +22,12 @@ nav{
     width: 85%;
     margin: 0 auto;
     background-color: blue;
+}
+
+
+main > section:first-child{
+    background-color: green;
+    width: 85%;
+    margin: 0 auto; 
+    height: 450px;
 }
