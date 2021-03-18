@@ -44,4 +44,36 @@ main > section:nth-child(2){
     height: 100px;
 }
 
+.container{
+    background-color: lightseagreen;
+}
+
+div aside{
+    width: 25%;
+    height: 450px;
+}
+
+aside:first-child{
+    background-color: crimson;
+    float: left;    
+}
+
+div > section{
+    background-color: yellow;
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+
+aside:last-child{
+    background-color: red;
+    float: left;
+}
+
 /* /Main rules */
+
+/* Footer rules */
+
+/* /Footer rules */
+
+
