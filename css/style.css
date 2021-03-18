@@ -21,8 +21,14 @@ body > *{
 /* Header rules */
 
 header{
-    height: 100px;
     background-color: orange;
+}
+
+header > img{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: darkred;
 }
 
 nav{
