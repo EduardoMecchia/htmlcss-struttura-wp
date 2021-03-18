@@ -22,12 +22,12 @@ body > *{
 
 header{
     height: 100px;
-    background-color: purple;
+    background-color: orange;
 }
 
 nav{
     height: 30px;
-    background-color: blue;
+    background-color: red;
 }
 
 /* /Header rules */
@@ -54,26 +54,25 @@ div aside{
 }
 
 aside:first-child{
-    background-color: crimson;
+    background-color: pink;
     float: left;    
 }
 
 div > section{
-    background-color: yellow;
+    background-color: fuchsia;
     width: 50%;
     height: 450px;
     float: left;
 }
 
 aside:last-child{
-    background-color: red;
+    background-color: purple;
     float: left;
 }
 
 /* /Main rules */
 
 /* Footer rules */
-
 
 body > footer{
     background-color: lightsalmon;
