@@ -1,3 +1,4 @@
+/* General rules */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +10,10 @@
     display: table;
     clear: both;
 }
+
+/* /General rules */
+
+/* Header rules */
 
 header{
     height: 100px;
@@ -24,6 +29,9 @@ nav{
     background-color: blue;
 }
 
+/* /Header rules */
+
+/* Main rules */
 
 main > section:first-child{
     background-color: green;
@@ -31,3 +39,5 @@ main > section:first-child{
     margin: 0 auto; 
     height: 450px;
 }
+
+/* /Main rules */
