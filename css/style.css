@@ -90,6 +90,18 @@ aside:last-child{
 body > footer{
     background-color: lightsalmon;
     height: 60px;
+    text-align: center;
+}
+
+footer > div{
+    text-align: center;
+    vertical-align: middle;
+    padding: 1.5%;
+}
+
+div > strong{
+    color: red;
+    font-size: 160%;
 }
 
 /* /Footer rules */
