@@ -11,6 +11,11 @@
     clear: both;
 }
 
+body > *{
+    width: 85%;
+    margin: 0 auto;
+}
+
 /* /General rules */
 
 /* Header rules */
@@ -18,14 +23,10 @@
 header{
     height: 100px;
     background-color: purple;
-    width: 85%;
-    margin: 0 auto;
 }
 
 nav{
     height: 30px;
-    width: 85%;
-    margin: 0 auto;
     background-color: blue;
 }
 
@@ -35,15 +36,11 @@ nav{
 
 main > section:first-child{
     background-color: green;
-    width: 85%;
-    margin: 0 auto; 
     height: 450px;
 }
 
 main > section:nth-child(2){
     background-color: lime;
-    width: 85%;
-    margin: 0 auto;
     height: 100px;
 }
 
